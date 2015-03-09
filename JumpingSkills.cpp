@@ -22,7 +22,7 @@ JumpingSkills
 class JumpingSkills : public bz_Plugin, public bz_CustomSlashCommandHandler
 {
 public:
-    virtual const char* Name () {return "JumpingSkills";}
+    virtual const char* Name () {return "Jumping Skills";}
     virtual void Init (const char* config);
     virtual void Event (bz_EventData *eventData);
     virtual void Cleanup (void);
