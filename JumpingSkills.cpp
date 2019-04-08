@@ -66,7 +66,7 @@ void JumpingSkills::Event (bz_EventData *eventData)
 
 bool JumpingSkills::SlashCommand(int playerID, bz_ApiString command, bz_ApiString /*message*/, bz_APIStringList *params)
 {
-    if (command == "d")
+    if (command == "d" || command == "D")
     {
         bz_killPlayer(playerID, false);
 
